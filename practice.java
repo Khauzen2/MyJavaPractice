@@ -10,6 +10,7 @@ public class practice {
         String[] seasons = new String[4];
         String[] daysOfWeek = new String[7];
         String[] months = new String[12];
+        String[] rappers = new String[4];
         Scanner input = new Scanner(System.in);
         System.out.println("My first fruit choice is " + fruits[0]);
         System.out.println("My second fruit choice is " + fruits[1]);
@@ -174,5 +175,21 @@ public class practice {
         System.out.println("The tenth month is " + months[9]);
         System.out.println("The eleventh month is " + months[10]);
         System.out.println("The twelveth month is " + months[11]);
+
+        // rappers input output
+        System.out.println("Enter first rapper");
+        rappers[0] = input.nextLine();
+        System.out.println("Enter second rapper");
+        rappers[1] = input.nextLine();
+        System.out.println("Enter third rapper");
+        rappers[2] = input.nextLine();
+        System.out.println("Enter fourth rapper");
+        rappers[3] = input.nextLine();
+
+        // output
+        System.out.println("The first rapper is " + rappers[0]);
+        System.out.println("The second rapper is " + rappers[1]);
+        System.out.println("The third rapper is " + rappers[2]);
+        System.out.println("The fourth rapper is " + rappers[3]);
     }
 }
