@@ -16,6 +16,7 @@ public class MusicPlayerActivity extends AppCompatActivity {
         // Setup play button
         Button playButton = findViewById(R.id.play_button);
         playButton.setOnClickListener(v -> playSong());
+        loadSongs();
     }
 
     private void loadSongs() {
