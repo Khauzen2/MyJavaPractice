@@ -20,7 +20,7 @@ public class MusicPlayerActivity extends AppCompatActivity {
     }
 
     private void loadSongs() {
-        System.out.println("To be continued!!!");
+        System.out.println("Continuing shortly");
 
     }
 
